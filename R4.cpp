@@ -1,17 +1,14 @@
-//print hello by using recursion //
-
 #include<iostream>
 #include<stdio.h>
 using namespace std;
 void print(int start,int end)
 {
+   //base case(termination case)
    if(start == end){
-   return;
-
-}
- cout<<"Hello"<<"\n";
- print(start+1,end);
- 
+    return;
+   }
+   cout<<"Nandani"<<"\n";
+   print(start+1,end);
 }
 int main(){
 
